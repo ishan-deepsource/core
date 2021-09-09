@@ -1,0 +1,13 @@
+version = 1
+
+exclude_patterns = [
+  "scripts/**",
+  "**/vendor/**",
+  "includes/**",
+  "config/**",
+  "assets/**"
+]
+
+[[analyzers]]
+name = "php"
+enabled = true
